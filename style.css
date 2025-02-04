@@ -1,0 +1,29 @@
+*{
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.sora-font{
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.adlam-font{
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@media screen and (max-width:576px){
+    .flex h2 , .nav-link , .nav{
+        display: none;
+    }
+    .flex i{
+        display: block;
+    }
+}
