@@ -20,7 +20,7 @@
 
 
 @media screen and (max-width:576px){
-    .flex h2 , .nav-link , .nav{
+    .flex h2 , .nav-link , .nav , .small{
         display: none;
     }
     .flex i{
